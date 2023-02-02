@@ -43,7 +43,7 @@
   padding: 20px;
 }
 .sidebar-desktop {
-  width: 28%;
+  width: 30%;
   /* outline: 1px solid red; */
   /* margin: 0 auto; */
   /* margin-top: 20rem; */
@@ -71,8 +71,14 @@
   border-radius: 1rem;
   height: 2rem;
   width: 2rem;
-  color: aliceblue;
+  color: white;
   border-color: white;
+  /* background: none; */
+}
+.step-btn:hover {
+  background-color: aquamarine;
+  /* border-color: red; */
+  color: black;
 }
 .step-discription-regular {
   /* font-size: 1rem; */
@@ -84,26 +90,45 @@
   font-weight: 500;
 }
 .content-panel {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   gap: 2rem;
-  justify-items: center;
+  justify-items: center; */
+
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+  /* justify-content: space-evenly; */
+  /* height: 95%; */
+  /* margin: auto 0; */
+  align-items: center;
+  margin: auto 0;
+  gap: 2rem;
 }
 .personal-info-list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.5rem;
 }
+
+.list-item {
+  line-height: 1.5;
+}
+/* 
 .personal-info {
   padding-top: 2rem;
   padding-left: 2rem;
-}
+} */
 
 input[type="text"] {
-  width: 200px;
-  height: 40px;
-  background-color: #f0f0f0;
-  border: 2px solid #333;
+  width: 100%;
+  /* height: 40px; */
+  /* background-color: #f0f0f0; */
+  border: 1px solid #333;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px #333;
+  /* box-shadow: 1px 1px 2px #333; */
   font-size: 16px;
   color: #333;
   padding: 10px;
