@@ -9,12 +9,19 @@
 }
 
 :root {
-  --primary-blue: hsl(213, 96%, 18%);
-  /* - Marine blue: hsl(213, 96%, 18%)
-- Purplish blue: hsl(243, 100%, 62%)
-- Pastel blue: hsl(228, 100%, 84%)
-- Light blue: hsl(206, 94%, 87%)
-- Strawberry red: hsl(354, 84%, 57%) */
+  --primary-marine-blue: hsl(213, 96%, 18%);
+  --primary-purplish-blue: hsl(243, 100%, 62%);
+  --primary-pastel-blue: hsl(228, 100%, 84%);
+  --primary-light-blue: hsl(206, 94%, 87%);
+  --primary-strawberry-red: hsl(354, 84%, 57%);
+  --secondary-pool-gray: hsl(231, 11%, 63%);
+  --secondary-light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
+}
+body {
+  background-color: var(--magnolia);
 }
 
 /* @font-face {
@@ -32,15 +39,18 @@
 /* CSS RESETS */
 
 .container {
-  outline: 1px solid blue;
-  width: 60%;
+  /* outline: 1px solid blue; */
+  width: 70%;
   margin: 0 auto;
-  border-radius: 1rem;
-  margin-top: 10rem;
+  border-radius: 0.5rem;
+  margin-top: 15rem;
+
   background-color: white;
   display: flex;
-  gap: 2rem;
-  padding: 20px;
+  /* justify-self: center;
+  align-self: center; */
+  gap: 6rem;
+  padding: 2 0px;
 }
 .sidebar-desktop {
   width: 30%;
@@ -73,10 +83,11 @@
   width: 2rem;
   color: white;
   border-color: white;
+  font-weight: bold;
   /* background: none; */
 }
 .step-btn:hover {
-  background-color: aquamarine;
+  background-color: var(--primary-light-blue);
   /* border-color: red; */
   color: black;
 }
@@ -84,16 +95,18 @@
   /* font-size: 1rem; */
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
+  color: var(--secondary-light-gray);
 }
 .step-discription-bold {
   font-family: "ubuntu";
-  font-weight: 500;
+  font-weight: bold;
 }
 .content-panel {
   /* display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-items: center; */
+  color: var(--primary-marine-blue);
 
   display: flex;
   flex-direction: column;
@@ -126,11 +139,26 @@ input[type="text"] {
   width: 100%;
   /* height: 40px; */
   /* background-color: #f0f0f0; */
-  border: 1px solid #333;
+  border: 1px solid var(--secondary-light-gray);
   border-radius: 5px;
   /* box-shadow: 1px 1px 2px #333; */
   font-size: 16px;
-  color: #333;
+  color: var(--secondary-light-gray);
   padding: 10px;
   font-family: "ubuntu";
+  line-height: 1.5;
+}
+
+.next-step-btn {
+  align-self: end;
+  padding: 11px;
+  border: none;
+  background: var(--primary-marine-blue);
+  color: var(--secondary-light-gray);
+  border-radius: 11px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 24px;
+  /* outline: 1px solid red; */
 }
