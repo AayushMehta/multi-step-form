@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><multi-step-form-step1> </multi-step-form-step1></title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style3.css" />
   </head>
   <body>
     <div class="container">
@@ -53,41 +53,38 @@
         </div>
       </div>
       <div class="content-panel">
-        <div class="personal-info">
-          <h1>Personal info</h1>
-          <p>Please provide your name, email address, and phone number.</p>
+        <div class="plan-info">
+          <h1>Select your plan</h1>
+          <p>You have the option of monthly or yearly billing.</p>
         </div>
         <div class="content-discription">
-          <ul class="personal-info-list">
-            <li class="list-item">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                placeholder="e.g. Stephen King  "
+          <div class="plan-cards">
+            <div class="arcade-card">
+              <img src="/images/icon-arcade.svg" alt="#" class="arcade-img" />
+              <p class="arcade-price">
+                <strong>Arcade</strong><br />
+                $90/yr
+              </p>
+            </div>
+            <div class="advanced-card">
+              <img
+                src="/images/icon-advanced.svg"
+                alt="#"
+                class="advanced-img"
               />
-            </li>
-            <li class="list-item">
-              <label for="email">Email Address</label>
-              <input
-                type="text"
-                id="email"
-                name="email"
-                placeholder="e.g. Stephenking@lorem.com  "
-              />
-            </li>
-            <li class="list-item">
-              <label for="phone-number">Phone Number</label>
-              <input
-                type="text"
-                id="phone-number"
-                name="phone-number"
-                placeholder="e.g. Stephen King  "
-              />
-            </li>
-          </ul>
+              <p>
+                <strong>Advanced</strong> <br />
+                $120/yr
+              </p>
+            </div>
+            <div class="pro-card">
+              <img src="/images/icon-pro.svg" alt="#" class="pro-img" />
+              <p>
+                <strong>Pro</strong> <br />
+                $150/yr
+              </p>
+            </div>
+          </div>
         </div>
         <button class="next-step-btn">Next Step</button>
       </div>
