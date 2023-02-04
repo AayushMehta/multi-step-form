@@ -101,16 +101,16 @@ body {
   /* gap: 2rem; */
   /* justify-content: space-evenly; */
   /* height: 95%; */
-  /* margin: auto 0; */
+  margin: auto 0;
   /* align-items: center; */
   /* margin: auto 0; */
   gap: 2rem;
 }
-.plan-add-ons {
+/* .plan-add-ons {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
+} */
 .online-service,
 .large-storage,
 .custom-profile {
@@ -131,4 +131,24 @@ body {
   font-weight: bold;
   margin-top: 24px;
   /* outline: 1px solid red; */
+}
+.summary {
+  /* outline: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: var(--magnolia);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.plan-summary {
+  display: flex;
+}
+.price {
+  margin-left: auto;
+}
+.total {
+  display: flex;
+  padding: 10px 20px;
 }
