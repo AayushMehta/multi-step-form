@@ -66,12 +66,14 @@ body {
 
 .step-btn {
   background: none;
-  border-radius: 1rem;
+  border-radius: 50%;
   height: 2rem;
   width: 2rem;
   color: white;
-  border-color: white;
+  /* border-color: white; */
   font-weight: bold;
+  border: none;
+  outline: 1px solid white;
   /* background: none; */
 }
 .step-btn:hover {
@@ -98,13 +100,31 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
+
   /* gap: 2rem; */
   /* justify-content: space-evenly; */
   /* height: 95%; */
-  /* margin: auto 0; */
+  margin: auto 0;
   /* align-items: center; */
   /* margin: auto 0; */
   gap: 2rem;
+}
+.plan-add-ons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.online-service {
+  outline: 1px solid var(--primary-purplish-blue);
+  border-radius: 5px;
+  /* padding: 20px 70px; */
+  display: flex;
+  gap: 2rem;
+  padding: 10px 10px;
+  align-items: center;
+}
+.price {
+  margin-left: auto;
 }
 
 .next-step-btn {
