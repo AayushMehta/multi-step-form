@@ -27,7 +27,6 @@ body {
 /* CSS RESETS */
 
 .container {
-  /* outline: 1px solid blue; */
   width: 70%;
   margin: 0 auto;
   border-radius: 0.5rem;
@@ -35,16 +34,11 @@ body {
 
   background-color: white;
   display: flex;
-  /* justify-self: center;
-  align-self: center; */
   gap: 6rem;
-  padding: 2 0px;
+  padding: 20px;
 }
 .sidebar-desktop {
-  width: 30%;
-  /* outline: 1px solid red; */
-  /* margin: 0 auto; */
-  /* margin-top: 20rem; */
+  width: 25%;
   background: url(/images/bg-sidebar-desktop.svg) no-repeat center/cover;
   border-radius: 0.3rem;
   color: aliceblue;
@@ -72,15 +66,12 @@ body {
   color: white;
   border-color: white;
   font-weight: bold;
-  /* background: none; */
 }
 .step-btn:hover {
   background-color: var(--primary-light-blue);
-  /* border-color: red; */
   color: black;
 }
 .step-discription-regular {
-  /* font-size: 1rem; */
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: var(--secondary-light-gray);
@@ -90,75 +81,34 @@ body {
   font-weight: bold;
 }
 .content-panel {
-  /* display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-items: center; */
   color: var(--primary-marine-blue);
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
-  /* justify-content: space-evenly; */
-  /* height: 95%; */
-  /* margin: auto 0; */
-  /* align-items: center; */
-  /* margin: auto 0; */
+  margin: auto 0;
   gap: 2rem;
 }
-.plan-cards {
-  display: flex;
-  gap: 3rem;
-  width: 100%;
-}
-.arcade-img {
-  width: 40px;
-  height: 40px;
-}
 
-.arcade-card {
+.summary {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  justify-content: space-between;
-  width: 80%;
-  background-color: var(--magnolia);
+  gap: 2rem;
+  background: var(--magnolia);
   border-radius: 5px;
-  padding: 10px;
-  /* align-items: flex-end; */
-}
-.advanced-img {
-  width: 40px;
-  height: 40px;
+  padding: 30px;
 }
 
-.advanced-card {
+.plan-summary {
   display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  justify-content: space-between;
-  width: 80%;
-  background-color: var(--magnolia);
-  border-radius: 5px;
-  padding: 10px;
-  /* align-items: flex-end; */
 }
-.pro-img {
-  width: 40px;
-  height: 40px;
+.price {
+  margin-left: auto;
+}
+.total {
+  display: flex;
+  padding: 10px 20px;
 }
 
-.pro-card {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  justify-content: space-between;
-  width: 80%;
-  background-color: var(--magnolia);
-  border-radius: 5px;
-  padding: 10px;
-  /* align-items: flex-end; */
-}
 .next-step-btn {
   align-self: end;
   padding: 11px;
@@ -170,5 +120,4 @@ body {
   font-size: 1rem;
   font-weight: bold;
   margin-top: 24px;
-  /* outline: 1px solid red; */
 }

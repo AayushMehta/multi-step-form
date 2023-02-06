@@ -27,24 +27,17 @@ body {
 /* CSS RESETS */
 
 .container {
-  /* outline: 1px solid blue; */
   width: 70%;
   margin: 0 auto;
   border-radius: 0.5rem;
   margin-top: 15rem;
-
   background-color: white;
   display: flex;
-  /* justify-self: center;
-  align-self: center; */
   gap: 6rem;
-  padding: 2 0px;
+  padding: 20px;
 }
 .sidebar-desktop {
-  width: 30%;
-  /* outline: 1px solid red; */
-  /* margin: 0 auto; */
-  /* margin-top: 20rem; */
+  width: 25%;
   background: url(/images/bg-sidebar-desktop.svg) no-repeat center/cover;
   border-radius: 0.3rem;
   color: aliceblue;
@@ -70,19 +63,15 @@ body {
   height: 2rem;
   width: 2rem;
   color: white;
-  /* border-color: white; */
   font-weight: bold;
   border: none;
   outline: 1px solid white;
-  /* background: none; */
 }
 .step-btn:hover {
   background-color: var(--primary-light-blue);
-  /* border-color: red; */
   color: black;
 }
 .step-discription-regular {
-  /* font-size: 1rem; */
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: var(--secondary-light-gray);
@@ -92,21 +81,12 @@ body {
   font-weight: bold;
 }
 .content-panel {
-  /* display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-items: center; */
   color: var(--primary-marine-blue);
   width: 50%;
   display: flex;
   flex-direction: column;
-
-  /* gap: 2rem; */
-  /* justify-content: space-evenly; */
-  /* height: 95%; */
   margin: auto 0;
-  /* align-items: center; */
-  /* margin: auto 0; */
+
   gap: 2rem;
 }
 .plan-add-ons {
@@ -117,7 +97,6 @@ body {
 .online-service {
   outline: 1px solid var(--primary-purplish-blue);
   border-radius: 5px;
-  /* padding: 20px 70px; */
   display: flex;
   gap: 2rem;
   padding: 10px 10px;
@@ -138,5 +117,4 @@ body {
   font-size: 1rem;
   font-weight: bold;
   margin-top: 24px;
-  /* outline: 1px solid red; */
 }
