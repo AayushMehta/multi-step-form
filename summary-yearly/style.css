@@ -60,13 +60,15 @@ body {
 
 .step-btn {
   background: none;
+  border: none;
   border-radius: 1rem;
   height: 2rem;
   width: 2rem;
   color: white;
-  border-color: white;
   font-weight: bold;
+  outline: 1px solid white;
 }
+
 .step-btn:hover {
   background-color: var(--primary-light-blue);
   color: black;
@@ -119,5 +121,16 @@ body {
   text-transform: capitalize;
   font-size: 1rem;
   font-weight: bold;
-  margin-top: 24px;
+}
+
+.back-btn {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn span {
+  color: var(--secondary-pool-gray);
+  font-weight: bold;
+  font-size: 1rem;
 }

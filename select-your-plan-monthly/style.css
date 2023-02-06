@@ -20,6 +20,7 @@
   --alabaster: hsl(231, 100%, 99%);
   --white: hsl(0, 0%, 100%);
 }
+
 body {
   background-color: var(--magnolia);
 }
@@ -36,12 +37,14 @@ body {
   gap: 6rem;
   padding: 20px;
 }
+
 .sidebar-desktop {
   width: 25%;
   background: url(/images/bg-sidebar-desktop.svg) no-repeat center/cover;
   border-radius: 0.3rem;
   color: aliceblue;
 }
+
 .step-selector {
   display: flex;
   flex-direction: column;
@@ -66,38 +69,44 @@ body {
   border-color: white;
   font-weight: bold;
 }
+
 .step-btn:hover {
   background-color: var(--primary-light-blue);
   color: black;
 }
+
 .step-discription-regular {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: var(--secondary-light-gray);
 }
+
 .step-discription-bold {
   font-family: "ubuntu";
   font-weight: bold;
 }
+
 .content-panel {
   color: var(--primary-marine-blue);
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   justify-content: center;
 
   gap: 2rem;
 }
+
 .plan-cards {
   display: flex;
   gap: 3rem;
   width: 100%;
 }
+
 .plan-info p {
   outline: 1px solid red;
   color: var(--secondary-pool-gray);
 }
+
 .card-img {
   width: 40px;
   height: 40px;
@@ -124,6 +133,16 @@ body {
   text-transform: capitalize;
   font-size: 1rem;
   font-weight: bold;
-  margin-top: 24px;
-  /* outline: 1px solid red; */
+}
+
+.back-btn {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn span {
+  color: var(--secondary-pool-gray);
+  font-weight: bold;
+  font-size: 1rem;
 }

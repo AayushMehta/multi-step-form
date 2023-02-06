@@ -31,19 +31,19 @@ body {
   margin: 0 auto;
   border-radius: 0.5rem;
   margin-top: 15rem;
-
   background-color: white;
   display: flex;
-
   gap: 9rem;
   padding: 20px;
 }
+
 .sidebar-desktop {
   width: 25%;
   background: url(/images/bg-sidebar-desktop.svg) no-repeat center/cover;
   border-radius: 0.5rem;
   color: aliceblue;
 }
+
 .step-selector {
   display: flex;
   flex-direction: column;
@@ -61,26 +61,31 @@ body {
 
 .step-btn {
   background: none;
+  border: none;
   border-radius: 1rem;
   height: 2rem;
   width: 2rem;
   color: white;
-  border-color: white;
   font-weight: bold;
+  outline: 1px solid white;
 }
+
 .step-btn:hover {
   background-color: var(--primary-light-blue);
   color: black;
 }
+
 .step-discription-regular {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: var(--secondary-light-gray);
 }
+
 .step-discription-bold {
   font-family: "ubuntu";
   font-weight: bold;
 }
+
 .content-panel {
   color: var(--primary-marine-blue);
   width: 50%;
@@ -96,6 +101,7 @@ body {
   gap: 2rem;
   align-items: center;
 }
+
 .img {
   height: 80px;
   width: 80px;
@@ -106,5 +112,4 @@ body {
   font-weight: 100;
   text-align: center;
   color: var(--secondary-pool-gray);
-  outline: 1px solid red;
 }
